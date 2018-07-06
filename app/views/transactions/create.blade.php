@@ -152,8 +152,8 @@
             <div class="col-md-2">
                 <div class="form-group">
                     <select name="income_type[]" class="form-control">
-                        <option value="3A" >3A</option>
                         <option value="BIO">BIO</option>
+                        <option value="3A" >3A</option>
                     </select>
                 </div>
             </div>
@@ -213,8 +213,8 @@
                 <div class="col-md-2">
                     <div class="form-group">
                         <select name="income_type[]" class="form-control">
-                            <option value="3A" {{ ($pi['income_type']=="3A") ? 'selected' : ''  }}>3A</option>
                             <option value="BIO" {{ ($pi['income_type']=="BIO") ? 'selected' : ''  }}>BIO</option>
+                            <option value="3A" {{ ($pi['income_type']=="3A") ? 'selected' : ''  }}>3A</option>
                         </select>
                     </div>
                 </div>
