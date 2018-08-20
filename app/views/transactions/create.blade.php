@@ -36,7 +36,7 @@
         <div class="col-md-3">
             <div class="form-group">
                 <label for="example-datetime-local-input">Date</label>
-                <input name="invoice_date" class="form-control datepicker" data-parsley-required type="date-local" value="{{ $_id['invoice_date']  }}" >
+                <input name="invoice_date" class="form-control datepicker" data-parsley-required type="date-local" value="{{ $_id['invoice_date']  }}" autocomplete="off">
             </div>
         </div>
         <div class="col-md-3">
