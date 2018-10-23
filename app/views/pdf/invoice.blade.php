@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Invoice</title>
-</head>
-<body>
-
 <h1> <img src="{{asset('images/bio-logo.png')}}" alt="Logo" height="60px"> Bio. Entomological Services & Trading International</h1>
 <p class="address">
     #10526 Rd., 1 Bernardo Village, Mayondon, Los Bañoz, Laguna <br/>
@@ -13,19 +6,19 @@
 </p>
 
 <?php
-    //extract($data);
-         //print_r($resibo_details); die();
+//extract($data);
+//print_r($resibo_details); die();
 
-    $_id             = json_decode(json_encode($resibo_details[0]),true);
-    $resibo_items    = json_decode(json_encode($resibo_items),true);
+$_id             = json_decode(json_encode($resibo_details[0]),true);
+$resibo_items    = json_decode(json_encode($resibo_items),true);
 ?>
 
 <h3 class="receipt-title">DELIVERY RECEIPT</h3>
 
 <p class="date">Date: <?php echo date('M d, Y', strtotime($_id['resibo_date'])) ?> <br/>
-<span class="or"> BS No. {{ $_id['bs_no']  }} </span><br/>
-<span class="or"> PO No. {{ $_id['po_no']  }} </span><br/>
-<span class="or"> OR No. {{ $_id['or_no']  }} </span>
+    <span class="or"> BS No. {{ $_id['bs_no']  }} </span><br/>
+    <span class="or"> PO No. {{ $_id['po_no']  }} </span><br/>
+    <span class="or"> OR No. {{ $_id['or_no']  }} </span>
 </p>
 
 <p class="delivery-to">Delivered to: <span class="class"> {{ $_id['delivered_to']  }} </span>  <br/>
@@ -42,14 +35,14 @@
     </tr>
 
     <?php
-        $sum = 0;
-        $ctr = 0;
+    $sum = 0;
+    $ctr = 0;
     ?>
     @foreach($resibo_items  as $pi)
-    <?php
+        <?php
         $sum += $pi['income_amount'];
         $ctr++;
-    ?>
+        ?>
         <tr>
             <td>{{ $pi['qty'] }}</td>
             <td>{{ $pi['unit'] }}</td>
@@ -84,7 +77,7 @@
     Received the above in good order and condition.
 </p>
 
-</body>
+
 <style>
     img{
         margin-bottom: -30px;
@@ -145,7 +138,3 @@
         padding:2px;
     }
 </style>
-</html>
-
-
-

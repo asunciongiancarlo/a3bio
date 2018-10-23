@@ -50,7 +50,7 @@ class Transaction extends \Eloquent
 
     public static function getInvoice($id)
     {
-        return DB::table('resibo')
+        return DB::table('invoices')
             ->select('*')
             ->where('id', '=', $id)
             ->get();
