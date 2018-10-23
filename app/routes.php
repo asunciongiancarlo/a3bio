@@ -102,6 +102,13 @@ Route::group(array('before' => 'auth'), function()
 	Route::resource('inventory/update', 'InventoryController@update');
 	Route::resource('inventory/destroy', 'InventoryController@destroy');
 
+    Route::resource('resibo', 'ResiboController');
+	Route::resource('invoice_pdf/{id}/view/', 'InvoicePDFController@view');
+	Route::resource('resibo/create', 'ResiboController@create');
+	Route::resource('resibo/{resibo_id}/edit', 'ResiboController@edit');
+    Route::resource('resibo/update', 'ResiboController@update');
+    Route::resource('resibo/destroy', 'ResiboController@destroy');
+
 });
 
 

@@ -20,13 +20,22 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Transactions<span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Transactions <span class="caret"></span> | </a>
                 <ul class="dropdown-menu" role="menu">
                   <li>  {{ link_to('sales', 'Transaction Details |', array('class'  =>'navbar-brand'))     }}    </li>
                   <li>  {{ link_to('transactions', 'Transaction Summary |', array('class'  =>'navbar-brand'))     }}    </li>
                   <li>   {{ link_to('transactions/create', 'Add New Transaction |', array('class'  =>'navbar-brand'))     }}     </li>
                 </ul>
               </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Receipts <span class="caret"></span> | </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>  {{ link_to('resibo', 'Receipts List |', array('class'  =>'navbar-brand'))     }}    </li>
+                  <li>  {{ link_to('resibo/create', 'Add New Receipt |', array('class'  =>'navbar-brand'))     }}    </li>
+                </ul>
+              </li>
+
               <li>     {{ link_to('clients', 'Clients |', array('class'  =>'navbar-brand'))     }}    </li>
               <li>     {{ link_to('items', 'Products |', array('class'  =>'navbar-brand'))     }}    </li>
               <li>     {{ link_to('item_quantity', 'Product Quantity |', array('class'  =>'navbar-brand'))     }}    </li>
