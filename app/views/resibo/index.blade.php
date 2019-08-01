@@ -48,6 +48,7 @@ if(Session::get('message')){
                     <td>  {{$transaction->or_no }}  </td>
                     <td>  {{'₱ '.number_format($transaction->income_amount,2) }}  </td>
                     <td>
+                        {{ link_to("/invoice_pdf/{$transaction->resibo_id}/view", 'Print', array('target'=>'_newtab')) 							 				    }} |
                         {{ link_to("/resibo/{$transaction->resibo_id}/edit", 'Edit') 							 				    }}  |
                         {{ link_to('#', 'Delete', array('class'=>'delOption','onclick'=>"delOption($transaction->resibo_id)")) 	}}
                     </td>

@@ -27,11 +27,11 @@ $resibo_items    = json_decode(json_encode($resibo_items),true);
 <table class="table table-bordered">
     <tr>
         <th width="50px">QUANTITY</th>
-        <th>UNIT</th>
+        <th width="50px">UNIT</th>
         <th width="50px">BATCH NO.</th>
         <th width="350px">ARTICLES</th>
-        <th width="50px">UNIT PRICE</th>
-        <th width="50px">PRICE</th>
+        <th width="80px">UNIT PRICE</th>
+        <th width="80px">PRICE</th>
     </tr>
 
     <?php
@@ -44,7 +44,7 @@ $resibo_items    = json_decode(json_encode($resibo_items),true);
         $ctr++;
         ?>
         <tr>
-            <td>{{ $pi['qty'] }}</td>
+            <td style="text-align: center;">{{ $pi['qty'] }}</td>
             <td>{{ $pi['unit'] }}</td>
             <td>{{ $pi['batch_no'] }}</td>
             <td>{{ $pi['articles'] }}</td>
@@ -83,14 +83,18 @@ $resibo_items    = json_decode(json_encode($resibo_items),true);
         margin-bottom: -30px;
     }
 
-    body{ font-size: 16px; line-height: 1;}
+    body{ font-size: 16px; line-height: 1; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 5px;}
+
+    @page{
+        margin: 5px;
+    }
 
     h1, .address, .receipt-title{
         text-align: center;
     }
 
     .or{
-        color: red;
+        color: black;
     }
 
     .receipt-title{

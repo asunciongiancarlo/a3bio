@@ -7,7 +7,7 @@ class Transaction extends \Eloquent
 
     public static function getAll()
     {
-       $cond = '';
+       $cond = "AND `i`.`invoice_date` >= '".date('Y-01-31')."' and `i`.`invoice_date`<= '".date('Y-12-31')."'";
        if(!empty(Input::get('date_from')))
            $cond = "AND `i`.`invoice_date` >= '".Input::get('date_from')."' and `i`.`invoice_date`<= '".Input::get('date_to')."'";
 

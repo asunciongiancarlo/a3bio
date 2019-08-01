@@ -25,14 +25,14 @@
 
 
 	{{ HTML::script('js/dataTables.tableTools.js') 	}}
-	{{ HTML::script('js/ckeditor.js') 	}}
+{{--	{{ HTML::script('js/ckeditor.js') 	}}--}}
 
-	{{ HTML::script('js/geoPosition.js') 	}}
-	{{ HTML::script('js/geoPosition.js') 	}}
+{{--	{{ HTML::script('js/geoPosition.js') 	}}--}}
+{{--	{{ HTML::script('js/geoPosition.js') 	}}--}}
 
 	<!-- COLOR PICKER -->
-    {{ HTML::script('js/colorpicker.js') }}
-    {{ HTML::style('css/colorpicker.css') }}
+{{--    {{ HTML::script('js/colorpicker.js') }}--}}
+{{--    {{ HTML::style('css/colorpicker.css') }}--}}
     <!-- COLOR PICKER -->
 
 	{{ HTML::style('css/jquery-ui.css') }}
@@ -43,10 +43,10 @@
 	{{ HTML::style('css/select2.min.css') 		}}
 
 
-	{{ HTML::script('js/pdfmake-master/build/pdfmake.js') 		}}
-	{{ HTML::script('js/pdfmake-master/build/vfs_fonts.js') 		}}
-	{{ HTML::script('js/buttons.html5.min.js') 		}}
-	{{ HTML::script('js/jszip.min.js') 		}}
+{{--	{{ HTML::script('js/pdfmake-master/build/pdfmake.js') 		}}--}}
+{{--	{{ HTML::script('js/pdfmake-master/build/vfs_fonts.js') 		}}--}}
+{{--	{{ HTML::script('js/buttons.html5.min.js') 		}}--}}
+{{--	{{ HTML::script('js/jszip.min.js') 		}}--}}
 	<style type="text/css">
 
 
