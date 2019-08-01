@@ -32,7 +32,9 @@
 		}
 	</style>
 	<body>
-		<img src = "img/logo.png">
+		<img src = "images/bio-logo.png" style="
+    height: 140px;
+">
 		<div class = "border"> 
 			{{ Form::open(array('url' =>'sessions/store')) }}
 			{{ Form::label('username','Username: ') }}

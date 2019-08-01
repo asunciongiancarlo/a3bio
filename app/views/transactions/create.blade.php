@@ -46,11 +46,11 @@
             </div>
         </div>
         <div class="col-md-1">
-            <label for="exampleInputEmail1">DR</label>
+            <label for="exampleInputEmail1">PO No.</label>
             <input name="invoice_dr" type="text" class="form-control" data-parsley-required id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $_id['invoice_dr']  }}" placeholder="">
         </div>
         <div class="col-md-2">
-            <label for="exampleInputEmail1">BS</label>
+            <label for="exampleInputEmail1">BS No.</label>
             <input name="invoice_bs" type="text" class="form-control" data-parsley-required id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $_id['invoice_bs']  }}" placeholder="">
         </div>
     </div>

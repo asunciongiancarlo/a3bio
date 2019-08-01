@@ -20,9 +20,9 @@ if(Session::get('message')){
                 <td> Delivered To		</td>
                 <td> Address		</td>
                 <td> Date	</td>
-                <td> BS No	        </td>
-                <td> PO No	    </td>
-                <td> OR No	    </td>
+                <td> BS No.	        </td>
+                <td> PO No.	    </td>
+                <td> OR No.	    </td>
                 <td> Total	    </td>
                 <td> Options	    </td>
             </tr>
@@ -30,9 +30,9 @@ if(Session::get('message')){
                 <td> Delivered To		</td>
                 <td> Address		</td>
                 <td> Date	</td>
-                <td> BS No	        </td>
-                <td> PO No	    </td>
-                <td> OR No	    </td>
+                <td> BS No.	        </td>
+                <td> PO No.	    </td>
+                <td> OR No.	    </td>
                 <td> Total	    </td>
                 <td> Options	    </td>
             </tr>

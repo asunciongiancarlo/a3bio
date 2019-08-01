@@ -32,8 +32,8 @@ if(Session::get('message')){
             <table id='myTable' class="table-striped table-bordered">
             <thead>
             <tr>
-                <td> DR		</td>
-                <td> BS		</td>
+                <td> PO	No.	</td>
+                <td> BS	No.	</td>
                 <td> Client Name	</td>
                 <td> Date	        </td>
                 <td> Due Date	    </td>
@@ -45,8 +45,8 @@ if(Session::get('message')){
                 <td> Options	    </td>
             </tr>
             <tr>
-                <td> DR		</td>
-                <td> BS		</td>
+                <td> PO No.		</td>
+                <td> BS No.		</td>
                 <td> Client Name	</td>
                 <td> Date	        </td>
                 <td> Due Date	    </td>

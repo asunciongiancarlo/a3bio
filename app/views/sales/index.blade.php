@@ -29,8 +29,8 @@
                 <td> Unit Price / Item	        	    </td>
                 <td> Income Type</td>
                 <td> Income Amount</td>
-                <td> DR	    </td>
-                <td> BS	    </td>
+                <td> PO No.	    </td>
+                <td> BS	No.    </td>
                 <td> Client Name	</td>
                 <td> Date	        </td>
                 <td> Due Date	        </td>
@@ -44,8 +44,8 @@
                 <td> Unit Price / Item	        	    </td>
                 <td> Income Type</td>
                 <td> Income Amount</td>
-                <td> DR	    </td>
-                <td> BS	    </td>
+                <td> PO No.	    </td>
+                <td> BS	No.    </td>
                 <td> Client Name	</td>
                 <td> Date	        </td>
                 <td> Due Date	        </td>

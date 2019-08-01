@@ -13,7 +13,7 @@
           </div>
           <div class="navbar-header">
               <a class="navbar-brand" href="#">
-                {{ HTML::image(URL().'/img/lugo.png', null, array('class'=>'lodenians-logo')); }}
+                {{ HTML::image(URL().'/images/bio-logo.png', null, array('class'=>'lodenians-logo')); }}
               </a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
