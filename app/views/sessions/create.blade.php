@@ -1,10 +1,11 @@
 <html>
 	<head>
-	{{ HTML::style('/css/bootstrap.min.css') }}
+
+	{{ HTML::style('/css/bootstrap.css') }}
 	</head>
 	<style>
 		.form-control{
-			width: 450px;
+			width: 270px;
 			margin: auto;
 			text-align: center;
 		}
@@ -22,10 +23,11 @@
 			padding: 35px;
 			color: white;
 			margin: auto;
-			width: 500px;
+			width: 430px;
 			text-align: center;
 			color: white ;
-			background-color: rgba(0, 155, 223, 0.9);
+			background-color: #1db954;
+			border-radius: 17px;
 		}
 		img{
 			margin-bottom: 50px;
@@ -41,7 +43,7 @@
 			{{ Form::text('username',null,['class' => 'form-control']) }}<br/>
 			{{ Form::label('password','Password: ') }}
 			{{ Form::password('password',['class' => 'form-control', 'style' => '']) }}<br/>
-			{{ Form::submit('Login',['class' => 'btn btn-danger']) }}<br><br>
+			{{ Form::submit('Login',['class' => 'btn btn-primary ']) }}<br><br>
 			<span class = "margin">{{ $message }}</span>
 			{{ Form::close() }}
 		</div>

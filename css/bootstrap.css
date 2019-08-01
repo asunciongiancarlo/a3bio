@@ -2889,20 +2889,28 @@ fieldset[disabled] .btn-default.active {
   color: #fff;
   background-color: #333;
 }
-.btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+.btn-primary, .buttons-html5 {
+  background: rgba(24,24,24,.7)!important;
+  color: #fff!important;
+  -webkit-box-shadow: inset 0 0 0 2px #b3b3b3!important;
+  box-shadow: inset 0 0 0 2px #b3b3b3!important;
+  border-radius: 17px!important;
+  padding-left: 23px!important;
+  padding-right: 23px!important;
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
 }
+
+.buttons-html5:hover,
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  -webkit-box-shadow: inset 0 0 0 2px #fff,0 0 0 1px transparent!important;
+  box-shadow: inset 0 0 0 2px #fff,0 0 0 1px transparent!important;
+  color: #fff!important;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -4299,7 +4307,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
+  background-color: #1db954;;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {

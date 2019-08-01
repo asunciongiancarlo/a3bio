@@ -43,10 +43,10 @@
 	{{ HTML::style('css/select2.min.css') 		}}
 
 
-{{--	{{ HTML::script('js/pdfmake-master/build/pdfmake.js') 		}}--}}
-{{--	{{ HTML::script('js/pdfmake-master/build/vfs_fonts.js') 		}}--}}
-{{--	{{ HTML::script('js/buttons.html5.min.js') 		}}--}}
-{{--	{{ HTML::script('js/jszip.min.js') 		}}--}}
+	{{ HTML::script('js/pdfmake-master/build/pdfmake.js') 		}}
+	{{ HTML::script('js/pdfmake-master/build/vfs_fonts.js') 		}}
+	{{ HTML::script('js/buttons.html5.min.js') 		}}
+	{{ HTML::script('js/jszip.min.js') 		}}
 	<style type="text/css">
 
 
