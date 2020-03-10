@@ -26,7 +26,7 @@ $resibo_items    = json_decode(json_encode($resibo_items),true);
 
 <table class="table table-bordered">
     <tr>
-        <th width="50px">QUANTITY</th>
+        <th width="10px">QUANTITY</th>
         <th width="50px">UNIT</th>
         <th width="50px">BATCH NO.</th>
         <th width="350px">ARTICLES</th>
@@ -83,10 +83,10 @@ $resibo_items    = json_decode(json_encode($resibo_items),true);
         margin-bottom: -30px;
     }
 
-    body{ font-size: 16px; line-height: 1; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 5px;}
+    body{ font-size: 18px; line-height: 1; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 5px;}
 
     @page{
-        margin: 5px;
+        margin: 10px;
     }
 
     h1, .address, .receipt-title{

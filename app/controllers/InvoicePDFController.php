@@ -74,9 +74,9 @@ class InvoicePDFController extends BaseController {
         $data['resibo_details']  = Resibo::getResibo($record_id);
         $data['resibo_items']    = ResiboTransactions::getResiboItems($record_id);
 
-       // print_r($data); die();
+        //print_r($data); die();
 
-        $pdf = PDF::loadView('pdf.invoice', $data);
+        $pdf = PDF::loadView('pdf.invoice', $data)->setPaper('B4');
         return $pdf->stream('download.pdf');
 
     }
