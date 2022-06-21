@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"guzzlehttp/guzzle": "~4.0",
+		"guzzlehttp/guzzle": "~6.5",
 		"laracasts/commander": "~1.0",
 		"barryvdh/laravel-debugbar": "~1.8",
 		"intervention/image": "^2.3"
